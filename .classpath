@@ -45,7 +45,6 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jaxrs-ri/ext/validation-api-1.1.0.Final.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jaxrs-ri/api/javax.ws.rs-api-2.0.1.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jersey-media-json-jackson-2.3.1.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2.5/asm-3.3.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2.5/asm-commons-3.3.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2.5/asm-tree-3.3.jar"/>
@@ -62,5 +61,17 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2.5/struts2-core-2.5.jar" sourcepath="C:/Users/Preetam Kumar/Downloads/Compressed/Dist/struts-2.5/src"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2.5/struts2-json-plugin-2.5.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2.5/struts2-tiles-plugin-2.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/WildFly 10.x Runtime">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-openjdk-amd64">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
