@@ -2,6 +2,8 @@ package com.preetam.hibernate.mappings;
 
 import java.sql.Timestamp;
 
+import com.google.gson.Gson;
+
 /**
  * HkUserLoginStatus entity. @author MyEclipse Persistence Tools
  */
@@ -95,6 +97,11 @@ public class HkUserLoginStatus implements java.io.Serializable {
 
 	public String getSessionId() {
 		return sessionId;
+	}
+	
+	@Override
+	public String toString() {
+		return new Gson().toJson(this);
 	}
 
 }
